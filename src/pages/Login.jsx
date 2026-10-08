@@ -21,7 +21,7 @@ function Login() {
                             type="email"
                             id="email"
                             value={email}
-                            onChange={(e) => setEmail(e.target.value)} // Atualiza o estado
+                            onChange={(e) => setEmail(e.target.value)} 
                             autoComplete="username"
                             required
                         />
@@ -33,7 +33,7 @@ function Login() {
                             type="password"
                             id="senha"
                             value={senha}
-                            onChange={(e) => setSenha(e.target.value)} // Atualiza o estado
+                            onChange={(e) => setSenha(e.target.value)} 
                             autoComplete="current-password"
                             required
                         />
