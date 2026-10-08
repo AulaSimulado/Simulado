@@ -1,10 +1,10 @@
-import React from 'react'
+
 
 const Footer = () => {
   return (
-    <>
-      
-    </>
+    <footer className="text-center py-10">
+      <p>&copy; 2026- Direitos Reservados</p>
+    </footer>
   )
 }
 
